@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musical</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="btn_group" data-key="87">
+          <button class="crash" data-key="87">W</button>
+          <kbd>Crash</kbd>
+        </div>
+        <div class="btn_group" data-key="82">
+          <button class="kick" data-key="82">R</button>
+          <kbd>Kick</kbd>
+        </div>
+        <div class="btn_group" data-key="89">
+          <button class="snare" data-key="89">Y</button>
+          <kbd>Snare</kbd>
+          <!-- <img class="snare_img" src="/snare.png" alt="snare" /> -->
+        </div>
+        <div class="btn_group" data-key="73">
+          <button class="tom1" data-key="73">I</button>
+          <kbd>Tom1</kbd>
+          <!-- <img class="tom1_img" src="/tom1.png" alt="tom1_img" /> -->
+        </div>
+        <div class="btn_group" data-key="80">
+          <button class="tom2" data-key="80">P</button>
+          <kbd>Tom2</kbd>
+          <!-- <img class="tom2_img" src="/tom2.png" alt="tom2" /> -->
+        </div>
+
+        <div class="btn_group" data-key="83">
+          <button class="tom3" data-key="83">S</button>
+          <kbd>Tom3</kbd>
+          <!-- <img class="tom3_img" src="/tom3.png" alt="tom3" /> -->
+        </div>
+
+        <div class="btn_group" data-key="68">
+          <button class="tom4" data-key="68">D</button>
+          <kbd>Tom4</kbd>
+          <!-- <img class="tom4_img" src="/tom4.png" alt="tom4" /> -->
+        </div>
+      </section>
+    </main>
+
+    <audio data-key="87" src="crash.mp3"></audio>
+    <audio data-key="82" src="kick-bass.mp3"></audio>
+    <audio data-key="89" src="snare.mp3"></audio>
+    <audio data-key="73" src="tom-1.mp3"></audio>
+    <audio data-key="80" src="tom-2.mp3"></audio>
+    <audio data-key="83" src="tom-3.mp3"></audio>
+    <audio data-key="68" src="tom-4.mp3"></audio>
+  </body>
+</html>
